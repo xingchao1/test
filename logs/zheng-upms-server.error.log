@@ -63,7 +63,14 @@ java.lang.NullPointerException
 	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
 	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
 	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
-	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:3
+
+
+
+
+
+
+	83)
 	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
 	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
 	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
