@@ -1,3 +1,6 @@
+qqqq
+
+
 2018-10-09 21:39:00 [ ERROR ] [ FrameworkServlet.java :502(initServletBean)] Context initialization failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'objectMapperConfigurer' defined in class path resource [springfox/documentation/spring/web/SpringfoxWebMvcConfiguration.class]: Initialization of bean failed; nested exception is java.lang.OutOfMemoryError: PermGen space
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
@@ -23,7 +26,12 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
 	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:296)
 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
-	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.server.handler.ContextHand
+
+
+
+
+	ler.doStart(ContextHandler.java:741)
 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
 	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:365)
 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
